@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/PortFolio/static/css/main.22282825.css",
+    "main.js": "/PortFolio/static/js/main.8a77d873.js",
+    "static/js/787.901e6151.chunk.js": "/PortFolio/static/js/787.901e6151.chunk.js",
+    "static/media/Pre-Cat.jpg": "/PortFolio/static/media/Pre-Cat.2c8dee8a200c8cebb289.jpg",
+    "static/media/JavaScript.jpg": "/PortFolio/static/media/JavaScript.1fcabaab7fcdf26b6943.jpg",
+    "static/media/Java.jpg": "/PortFolio/static/media/Java.74022034ecd76bcdb75b.jpg",
+    "static/media/React.jpg": "/PortFolio/static/media/React.5d84466a48aa9444e967.jpg",
+    "static/media/Core_Java.jpg": "/PortFolio/static/media/Core_Java.6c20cd42574545800c1c.jpg",
+    "static/media/CDAC-Certificate.jpg": "/PortFolio/static/media/CDAC-Certificate.929ca3ae5a8dac89ed2f.jpg",
+    "static/media/CDAC-MarkSheet.jpg": "/PortFolio/static/media/CDAC-MarkSheet.96b5b3229c80c068fcb6.jpg",
+    "static/media/Latest_Photo.jpg": "/PortFolio/static/media/Latest_Photo.82529522e444a6931548.jpg",
+    "index.html": "/PortFolio/index.html",
+    "main.22282825.css.map": "/PortFolio/static/css/main.22282825.css.map",
+    "main.8a77d873.js.map": "/PortFolio/static/js/main.8a77d873.js.map",
+    "787.901e6151.chunk.js.map": "/PortFolio/static/js/787.901e6151.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.22282825.css",
+    "static/js/main.8a77d873.js"
+  ]
+}
