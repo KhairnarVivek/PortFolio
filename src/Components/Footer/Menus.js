@@ -14,7 +14,7 @@ export const RESOURCES = [
 
 export const COMPANY = [
   { name: "Diversity & inclusion", link: "#" },
-  { name: "About Me", link: "#" },
+  { name: "About Me", link: "/ABOUT-ME" },
   { name: "Certificates", link: "#" },
   { name: "Press", link: "#" },
   { name: "Customer Stories", link: "#" },
@@ -36,5 +36,8 @@ export const ICONS = [
     name: "logo-linkedin",
     link: "https://www.linkedin.com/in/vivek-khairnar-10449626b",
   },
-  { name: "logo-instagram", link: "#" },
+  {
+    name: "logo-instagram",
+    link: "https://www.instagram.com/vivek_khairnar97/",
+  },
 ];

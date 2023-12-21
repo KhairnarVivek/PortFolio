@@ -41,3 +41,6 @@ body::-webkit-scrollbar{
   display: none;
 }
 
+ionion-icon {
+  color: gold;
+}
