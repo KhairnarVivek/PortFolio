@@ -27,9 +27,9 @@ const Navbar = () => {
         <li className="nav-component lg:border-2 lg:border-teal-500 rounded-lg hover:border-gray-100">
           <Link to="/FEEDBACK">Feedback</Link>
         </li>
-        <li className="nav-component lg:border-2 lg:border-teal-500 rounded-lg hover:border-gray-100">
+        {/* <li className="nav-component lg:border-2 lg:border-teal-500 rounded-lg hover:border-gray-100">
           <Link to="/FEEDBACKNEW">Feedback</Link>
-        </li>
+        </li> */}
         <li className="nav-component ">
           <a
             href={CV}
@@ -39,6 +39,7 @@ const Navbar = () => {
             Download CV{" "}
           </a>
         </li>
+          
       </ul>
     </div>
   );

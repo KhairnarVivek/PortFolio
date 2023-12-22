@@ -2,7 +2,7 @@ import React, { useEffect, useRef } from "react";
 import Typed from "typed.js";
 import profilePhoto from "../Accets/Latest_Photo.jpg";
 import { EducationTable } from "./EducationTable";
-
+import Banner from "./Banner";
 const Home = () => {
 
   const el = useRef(null);
@@ -53,6 +53,7 @@ const Home = () => {
               alt="profile Photo"
             />
           </div>
+
           {/* End of Photo Section  */}
           <div>
             {/* Name Section  */}
@@ -61,12 +62,13 @@ const Home = () => {
                 <span className="sm0:text-[15px] font-bold text-indigo-500 md:text-[15.7px]">
                   Name :
                 </span>{" "}
-                <span className="sm0:text-[15px] font-bold text-indigo-500 md:text-[15.7px] mx-1">
+                <span className="sm0:text-[15px] font-bold text-indigo-500 md:text-[15.7px] mx-1 mb-12">
                   Vivek Ramdas Khairnar
                 </span>
               </div>
             </div>{" "}
             {/* End of Name Section  */}
+            <hr className="px-20 m-auto" />
           </div>
           {/* Objective Section  */}
           <div>
@@ -118,6 +120,7 @@ const Home = () => {
         </div>
         {/* End of Section */}
       </div>
+      <Banner/>
     </div>
   );
 };

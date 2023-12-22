@@ -111,7 +111,7 @@ const Feedback = () => {
                     Full Name :
                   </span>
                   <input
-                    className="font-mono sm0:w-full sm0:placeholder:text-[12px] md:placeholder:text-base justify-center sm0:mx-auto sm:placeholder:text-md bg-gray-100 border-2 ml-[102px] border-slate-500 md:w-1/2 pl-2 md:p-2 sm0:p-1 my-2 rounded-md focus:outline-none text-black placeholder-gray-600"
+                    className="font-mono sm0:w-full sm0:placeholder:text-[12px] md:placeholder:text-base justify-center sm0:mx-auto sm:placeholder:text-md bg-gray-100 border ml-[102px] border-slate-500 md:w-1/2 pl-2 md:p-2 sm0:p-1 my-2 rounded-md focus:outline-none text-black placeholder-gray-600"
                     type="text"
                     name="feedback_name"
                     value={formData.feedback_name}
@@ -128,7 +128,7 @@ const Feedback = () => {
                     Email ID :
                   </span>
                   <input
-                    className="font-mono sm0:w-full sm0:placeholder:text-[12px] md:placeholder:text-base sm0:mx-auto sm:placeholder:text-md bg-gray-100 border-2 ml-[118px] border-slate-500 md:w-1/2 pl-2 md:p-2 sm0:p-1 my-2 rounded-md focus:outline-none text-black placeholder-gray-600"
+                    className="font-mono sm0:w-full sm0:placeholder:text-[12px] md:placeholder:text-base sm0:mx-auto sm:placeholder:text-md bg-gray-100 border ml-[118px] border-slate-500 md:w-1/2 pl-2 md:p-2 sm0:p-1 my-2 rounded-md focus:outline-none text-black placeholder-gray-600"
                     type="text"
                     name="feedback_email"
                     value={formData.feedback_email}
@@ -175,7 +175,7 @@ const Feedback = () => {
                         feedback_rating: e.target.value,
                       })
                     }
-                    className="font-mono sm0:text-[12px] sm0:w-full sm0:mx-auto md:text-base bg-gray-100 border-2 ml-[77px] border-slate-500 md:w-1/2 md:px-1 sm0:pl-[3px] sm0:py-[8px] md:py-2  my-2 rounded-md focus:outline-none text-black"
+                    className="font-mono sm0:text-[12px] sm0:w-full sm0:mx-auto md:text-base bg-gray-100 border ml-[77px] border-slate-500 md:w-1/2 md:px-1 sm0:pl-[3px] sm0:py-[8px] md:py-2  my-2 rounded-md focus:outline-none text-gray-600  focus:text-black "
                     required
                   >
                     <option
@@ -213,7 +213,7 @@ const Feedback = () => {
                     value={formData.feedback_message}
                     onChange={handleChange}
                     required
-                    className="font-mono sm0:w-full sm0:placeholder:text-[12px] md:placeholder:text-base sm0:mx-auto sm:placeholder:text-md bg-gray-100 border-2 ml-3 border-slate-500 md:w-1/2 sm0:pl-1 md:pl-2 sm0:p-1 my-2 rounded-md focus:outline-none text-black placeholder-gray-600"
+                    className="font-mono sm0:w-full sm0:placeholder:text-[12px] md:placeholder:text-base sm0:mx-auto sm:placeholder:text-md bg-gray-100 border ml-3 border-slate-500 md:w-1/2 sm0:pl-1 md:pl-2 sm0:p-1 my-2 rounded-md focus:outline-none text-black placeholder-gray-600 "
                     placeholder="Write Your Feedback"
                   />
                 </label>

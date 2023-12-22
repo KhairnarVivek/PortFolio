@@ -58,21 +58,14 @@ const FeedbackData = () => {
                 key={index}
                 className="hover:bg-gradient-to-r hover:from-blue-300 hover:via-gray-400 hover:to-blue-300"
               >
-                <td className="text-center w-20">
-                  {index + 1}
-                </td>
-                <td className="pl-5 w-[350px] py-3">
-                  {data.feedback_name}
-                </td>
-                <td className="pl-5 w-[300px] py-3">
-                  {data.feedback_email}
-                </td>
+                <td className="text-center w-20">{index + 1}</td>
+                <td className="pl-5 w-[350px] py-3">{data.feedback_name}</td>
+                <td className="pl-5 w-[300px] py-3">{data.feedback_email}</td>
                 <td className="text-center sm0:w-11 md:w-36 py-3 flex justify-center items-center">
-                  {data.feedback_rating} <ion-icon src={STAR}></ion-icon>
+                  <span className="text-[18px]">{data.feedback_rating}</span>{" "}
+                  <ion-icon src={STAR}></ion-icon>
                 </td>
-                <td className="pl-5 w-[550px] py-3">
-                  {data.feedback_message}
-                </td>
+                <td className="pl-5 w-[550px] py-3">{data.feedback_message}</td>
               </tr>
             ))}
           </tbody>

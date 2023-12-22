@@ -41,6 +41,13 @@ body::-webkit-scrollbar{
   display: none;
 }
 
-ionion-icon {
-  color: gold;
+
+/* ============ flip hover styles ============ */
+.card:hover {
+  transform: rotateY(180deg);
+  transform-style: preserve-3d;
+}
+
+.card-back {
+  transform: rotateY(180deg);
 }

@@ -16,7 +16,7 @@ const Certificates = () => {
     <div className="mt-1 bg-gradient-to-r from-gray-300 via-gray-200 to-gray-300">
       <div>
         <div>
-          <div className="grid sm0:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-[108px] sm0:p-10 md:px-20">
+          <div className="cursor-pointer grid sm0:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-[108px] sm0:p-10 md:px-20">
             {/* first Image  */}
             <div className="sm0:flex sm0:justify-center items-cente">
               <div className="sm0:w-60 md:w-96 md:mb-10 ">
@@ -48,7 +48,7 @@ const Certificates = () => {
             </div>
           </div>
 
-          <div className="grid sm0:grid-cols-1 md:grid-cols-2 gap-10 sm0:p-10 md:p-20">
+          <div className="cursor-pointer grid sm0:grid-cols-1 md:grid-cols-2 gap-10 sm0:p-10 md:p-20">
             <div>
               <img
                 className="rounded-xl hover:shadow-2xl hover:shadow-gray-600 hover:scale-105 duration-700"
