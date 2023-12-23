@@ -51,3 +51,12 @@ body::-webkit-scrollbar{
 .card-back {
   transform: rotateY(180deg);
 }
+
+#background{
+  
+  background: url('./Components/Accets/BackgroundImage.jpeg') center/cover fixed no-repeat;
+  height: 130vh;
+  width: 100%;
+  display: flex;
+  background: linear-gradient(rgba(255, 0, 0, 0.3), rgba(0, 0, 255, 0.3)), url('./Components/Accets/BackgroundImage.jpeg') center/cover fixed no-repeat;
+}

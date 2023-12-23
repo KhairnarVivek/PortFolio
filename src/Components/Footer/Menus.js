@@ -15,7 +15,7 @@ export const RESOURCES = [
 export const COMPANY = [
   { name: "Diversity & inclusion", link: "#" },
   { name: "About Me", link: "/ABOUT-ME" },
-  { name: "Certificates", link: "#" },
+  { name: "Certificates", link: "/CERTIFICATES" },
   { name: "Press", link: "#" },
   { name: "Customer Stories", link: "#" },
   { name: "Online Communities", link: "#" },

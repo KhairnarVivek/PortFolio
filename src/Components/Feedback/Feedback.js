@@ -92,7 +92,7 @@ const Feedback = () => {
 
   return (
     <div className="bg-gray-100">
-      <div className="text-center md:text-3xl font-bold bg-gray-400 mt-1 p-4">
+      <div className="text-center md:text-3xl font-semibold bg-gray-400 mt-1 p-4">
         FeedBack Form
       </div>
       <div className="mt-20">
@@ -105,7 +105,10 @@ const Feedback = () => {
             <div className="lg:mx-36 md:mx-20 sm0:mx-5">
               <div className="">
                 {/* Full Name  */}
-                <label className="font-bold flex items-center" htmlFor="name">
+                <label
+                  className="font-bold flex items-center"
+                  htmlFor="feedback_name"
+                >
                   {" "}
                   <span className="sm0:text-[12px] sm0:w-[100px] md:w-[185px] xl:w-[200px] sm1_1:text-[13px] md:text-lg ">
                     Full Name :
@@ -113,6 +116,7 @@ const Feedback = () => {
                   <input
                     className="font-mono sm0:w-full sm0:placeholder:text-[12px] md:placeholder:text-base justify-center sm0:mx-auto sm:placeholder:text-md bg-gray-100 border ml-[102px] border-slate-500 md:w-1/2 pl-2 md:p-2 sm0:p-1 my-2 rounded-md focus:outline-none text-black placeholder-gray-600"
                     type="text"
+                    id="feedback_name"
                     name="feedback_name"
                     value={formData.feedback_name}
                     onChange={handleChange}
@@ -123,13 +127,17 @@ const Feedback = () => {
               </div>
               <div>
                 {/* Email Id  */}
-                <label className="font-bold flex items-center" htmlFor="email">
+                <label
+                  className="font-bold flex items-center"
+                  htmlFor="feedback_email"
+                >
                   <span className="sm0:text-[12px] sm0:w-[100px] md:w-[185px] xl:w-[200px] sm1_1:text-[13px] md:text-lg">
                     Email ID :
                   </span>
                   <input
                     className="font-mono sm0:w-full sm0:placeholder:text-[12px] md:placeholder:text-base sm0:mx-auto sm:placeholder:text-md bg-gray-100 border ml-[118px] border-slate-500 md:w-1/2 pl-2 md:p-2 sm0:p-1 my-2 rounded-md focus:outline-none text-black placeholder-gray-600"
                     type="text"
+                    id="feedback_email"
                     name="feedback_email"
                     value={formData.feedback_email}
                     onChange={handleChange}
@@ -141,7 +149,10 @@ const Feedback = () => {
               {/* Rating  */}
               <div>
                 {" "}
-                <label className="font-bold flex items-center" htmlFor="rating">
+                <label
+                  className="font-bold flex items-center"
+                  htmlFor="feedback_rating"
+                >
                   {" "}
                   <span className="sm0:text-[12px] sm0:w-[100px] md:w-[185px] xl:w-[200px] sm1_1:text-[13px] md:text-lg">
                     Select Rating :
@@ -168,6 +179,7 @@ const Feedback = () => {
                   </select> */}
                   <select
                     name="feedback_rating"
+                    id="feedback_rating"
                     value={formData.feedback_rating}
                     onChange={(e) =>
                       setFormData({
@@ -201,7 +213,7 @@ const Feedback = () => {
                 {" "}
                 <label
                   className="font-bold flex items-center"
-                  htmlFor="feedback"
+                  htmlFor="feedback_message"
                 >
                   <span className="sm0:text-[12px] sm0:w-[100px] md:w-[185px] xl:w-[200px] sm1_1:text-[13px] md:text-lg">
                     Write Your Feedback :
@@ -209,6 +221,7 @@ const Feedback = () => {
                   <textarea
                     type="textarea"
                     rows="5"
+                    id="feedback_message"
                     name="feedback_message"
                     value={formData.feedback_message}
                     onChange={handleChange}

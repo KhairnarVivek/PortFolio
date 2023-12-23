@@ -10,7 +10,7 @@ const el = useRef(null);
 
 useEffect(() => {
   const typed = new Typed(el.current, {
-    strings: ["Welcome to Vivek's Portfolio"], // Strings to display
+    strings: ["Welcome to Vivek's Portfolio","Welcome to My Portfolio"], // Strings to display
     // Speed settings, try diffrent values untill you get good results
     startDelay: 100,
     typeSpeed: 50,
@@ -40,6 +40,8 @@ useEffect(() => {
         <div>
           <input
             type="text"
+            name="phone_number"
+            id="phone_number"
             placeholder="Enter Your Phone no. "
             className="text-gray-800 md:w-full sm:w-72 w-full sm:mr-5 mr-1 lg:mb-0 mb-4 py-2 rounded px-2 
             focus:outline-none"
