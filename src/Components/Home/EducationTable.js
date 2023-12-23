@@ -62,8 +62,8 @@ export const EducationTable = () => {
         Education
       </caption>
       <thead className="text-lg text-indigo-600 bg-gradient-to-r from-amber-500 via-white to-amber-500 sm0:text-[9px] sm1_1:text-[10px] md:text-lg lg:text-xl">
-        {Heading.map((data) => (
-          <tr>
+        {Heading.map((data, index) => (
+          <tr id={index} key={index}>
             <th className="border border-[#ddd] text-center w-20 py-5">
               {data.title1}
             </th>
@@ -88,7 +88,11 @@ export const EducationTable = () => {
 
       <tbody className="[&>*:nth-child(even)]:bg-amber-200 [&>*:nth-child(odd)]:bg-amber-100  sm0:text-[8px] sm1_1:text-[9px] md:text-base lg:text-lg">
         {DATA.map((data, index) => (
-          <tr className="hover:bg-gradient-to-r hover:from-blue-300 hover:via-gray-400 hover:to-blue-300">
+          <tr
+            id={index}
+            key={index}
+            className="hover:bg-gradient-to-r hover:from-blue-300 hover:via-gray-400 hover:to-blue-300"
+          >
             <td className="border border-[#ddd] text-center w-20 py-4">
               {index + 1}
             </td>

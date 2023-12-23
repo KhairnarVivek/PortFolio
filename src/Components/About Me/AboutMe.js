@@ -32,7 +32,7 @@ const AboutMe = () => {
           Hello I'm Vivek Khairnar
         </div>
         <div className="md:text-5xl sm2:text-xl sm0:text-[18px] text-gray-200 font-semibold mt-4">
-          I am a <span ref={el}></span>
+        And I am a <span ref={el}></span>
         </div>
         <div className="md:text-xl sm2:text-base sm0:text-sm text-gray-200 font-semibold flex text-justify mt-5">
           Aspiring software engineer and Completed Post Graduation Diploma In

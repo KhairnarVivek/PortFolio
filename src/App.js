@@ -11,7 +11,7 @@ import Feedback1 from "./Components/Feedback/FeedbackData";
 // import CarImage from "./Components/Accets/Nat.jpg";
 function App() {
   return (
-    <div className="m-1">
+    <div className="">
       <Router>
         <ToastContainer />
         <Navbar />

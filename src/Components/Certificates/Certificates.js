@@ -13,7 +13,7 @@ const Certificates = () => {
 
 
   return (
-    <div className="mt-1 bg-gradient-to-r from-gray-300 via-gray-200 to-gray-300">
+    <div className="bg-gradient-to-r from-gray-300 via-gray-200 to-gray-300">
       <div>
         <div>
           <div className="cursor-pointer grid sm0:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-[108px] sm0:p-10 md:px-20">
