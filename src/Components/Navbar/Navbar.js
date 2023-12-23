@@ -13,7 +13,7 @@ const Navbar = () => {
     <div className="flex flex-row py-1">
       <ul className="flex sm0:flex-col sm1:flex-col sm:flex-col md:flex-col lg:flex-row lg:items-center">
         <li className="nav-component lg:border-2 lg:border-teal-500 rounded-lg hover:border-gray-100">
-          <Link to="/">Home</Link>
+          <Link to="/PortFolio">Home</Link>
         </li>
 
         <li className="nav-component lg:border-2 lg:border-teal-500 rounded-lg hover:border-gray-100">
@@ -39,7 +39,6 @@ const Navbar = () => {
             Download CV{" "}
           </a>
         </li>
-          
       </ul>
     </div>
   );

@@ -16,7 +16,7 @@ function App() {
         <ToastContainer />
         <Navbar />
         <Routes>
-          <Route path="/" element={<Home />} />
+          <Route path="/PortFolio" element={<Home />} />
           <Route path="/ABOUT-ME" element={<AboutMe />} />
           <Route path="/CERTIFICATES" element={<Certificates />} />
           <Route path="/FEEDBACK" element={<Feedback />} />
