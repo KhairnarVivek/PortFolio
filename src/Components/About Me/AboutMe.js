@@ -28,7 +28,7 @@ const AboutMe = () => {
         <div className=" md:text-2xl sm2:text-base sm0:text-sm text-gray-200 font-semibold">
           Welcome To My Portfolio
         </div>
-        <div className="xl:text-6xl lg:text-5xl md:text-4xl sm2:text-2xl sm0:text-xl text-gray-200 font-semibold flex mt-4">
+        <div className="xl:text-6xl xl_1:text-[55px] lg:text-5xl md:text-4xl sm2:text-2xl sm0:text-xl text-gray-200 font-semibold flex mt-4">
           Hello I'm Vivek Khairnar
         </div>
         <div className="md:text-5xl sm2:text-xl sm0:text-[18px] text-gray-200 font-semibold mt-4">
