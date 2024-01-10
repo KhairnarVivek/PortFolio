@@ -37,7 +37,7 @@ useEffect(() => {
           </span>{" "}
           <span></span>
         </h3>
-        <div>
+        {/* <div>
           <input
             type="text"
             name="phone_number"
@@ -52,7 +52,7 @@ useEffect(() => {
           >
             Request Code
           </button>
-        </div>
+        </div> */}
       </div>
       <ItemsContainer />
       <div

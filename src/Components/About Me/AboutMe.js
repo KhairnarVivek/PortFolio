@@ -3,7 +3,7 @@ import Typed from "typed.js";
 import Carousel from "./Carousel";
 import FrontOfCard from "./FrontofCard";
 import BackOfCard from "./BackOfCard";
-import BackgroundImage from "../Accets/BackgroundImage.jpeg";
+ 
 const AboutMe = () => {
   const el = useRef(null);
 
@@ -32,7 +32,7 @@ const AboutMe = () => {
           Hello I'm Vivek Khairnar
         </div>
         <div className="md:text-5xl sm2:text-xl sm0:text-[18px] text-gray-200 font-semibold mt-4">
-        And I am a <span ref={el}></span>
+          And I am a <span ref={el}></span>
         </div>
         <div className="md:text-xl sm2:text-base sm0:text-sm text-gray-200 font-semibold flex text-justify mt-5">
           Aspiring software engineer and Completed Post Graduation Diploma In
@@ -81,7 +81,7 @@ const AboutMe = () => {
             </button>
           </div>
           <div>
-            <button className="sm0:text-[9px] md:text-xl border rounded-sm p-3 md:px-6 sm2:px-10 sm0:px-6 text-gray-50 hover:text-blue-900 hover:text-opacity-80 hover:bg-white hover:bg-opacity-70 hover:text-transparent sm1_1:mx-9 sm0:ml-5 duration-500">
+            <button className="sm0:text-[9px] md:text-xl border rounded-sm p-3 md:px-6 sm2:px-10 sm0:px-6 text-gray-50 hover:text-blue-900 hover:text-opacity-80 hover:bg-white hover:bg-opacity-70 sm1_1:mx-9 sm0:ml-5 duration-500">
               Contact Me
             </button>
           </div>

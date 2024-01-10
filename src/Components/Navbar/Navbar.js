@@ -30,13 +30,14 @@ const Navbar = () => {
         {/* <li className="nav-component lg:border-2 lg:border-teal-500 rounded-lg hover:border-gray-100">
           <Link to="/FEEDBACKNEW">Feedback</Link>
         </li> */}
-        <li className="nav-component ">
+        <li className="nav-component mx-0">
           <a
             href={CV}
             download="Vivek's CV"
-            className="flex items-center bg-gray-100 sm:w-52 text-teal-500 font-mono sm:text-lg justify-center hover:bg-teal-500 hover:text-gray-300 sm:py-3 rounded-xl sm0:py-2 sm0:w-[260px] sm0: sm0:text-base hover:scale-95 duration-700 font-bold"
+            className="flex items-center bg-gray-100 sm:w-52 text-teal-500 font-mono sm:text-lg justify-center hover:bg-teal-500 hover:text-gray-300 sm:py-3 rounded-xl sm0:py-2 sm0:w-[260px] sm0:text-base hover:scale-95 duration-700 font-bold"
           >
-            Download CV{" "}
+            <span className="px-2"> Download CV</span>
+            <ion-icon name="arrow-down-outline"></ion-icon>{" "}
           </a>
         </li>
       </ul>
@@ -54,7 +55,7 @@ const Navbar = () => {
               {/* email  */}
               <div className="flex sm0:hidden sm1:hidden sm:hidden md:inline-flex items-center text-sm">
                 <svg
-                  className="mt-1 w-4 text-red-600 hover:text-teal-300 duration-700"
+                  className="mt-1 w-4 text-teal-500 duration-700"
                   width="24"
                   height="24"
                   viewBox="0 0 24 24"
@@ -76,7 +77,7 @@ const Navbar = () => {
               {/* phone  */}
               <div className="flex sm0:hidden sm1:hidden sm:hidden md:inline-flex items-center text-sm pl-[70px] md:pl-[40px]">
                 <svg
-                  className="h-4 w-4 text-red-600 hover:text-teal-500 duration-300"
+                  className="h-4 w-4 text-teal-500 duration-300"
                   viewBox="0 0 24 24"
                   fill="none"
                   stroke="currentColor"
@@ -95,7 +96,7 @@ const Navbar = () => {
               {/* Image  */}
               <div className="">
                 <img
-                  className="text-sm font-normal text-white rounded-full h-[80px] w-[80px] mr-4  lg:mr-14"
+                  className="text-sm font-normal text-white rounded-full h-[70px] w-[68px] mr-4  lg:mr-14"
                   src={profilePhoto}
                   alt="profile photo"
                 />

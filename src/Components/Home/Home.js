@@ -93,7 +93,7 @@ const Home = () => {
                         development.{" "}
                       </span>{" "}
                     </div>
-                    <span className="absolute sm0:rounded-2xl md:rounded-full left-0 shadow-2xl shadow-gray-400 -bottom-3 sm0:w-[311px] sm1_1:w-[367px] sm2:w-[416px] md:w-[660px] lg:w-[910px] xl_1:w-[1190px] xl_2:w-[1340px] 2xl:w-[1430px] h-[2px] bg-gradient-to-r from-pink-400 via-gray-400 to-yellow-200 -z-10 sm0:group-hover:h-[410px] sm1_1:group-hover:h-[335px] sm2:group-hover:h-[290px] md:group-hover:h-[170px] lg:group-hover:h-[125px] xl_1:group-hover:h-[95px] 2xl:group-hover:h-[98px]   group-hover:duration-700  group-hover:transition-all duration-700"></span>
+                     
                   </p>
                 </div>
               </div>
